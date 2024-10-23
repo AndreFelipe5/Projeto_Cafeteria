@@ -17,6 +17,7 @@ Informações sobre a cafeteria e seus valores
 Formulário de contato
 
 🛠️ Tecnologias Utilizadas
+
 HTML5
 
 CSS3
