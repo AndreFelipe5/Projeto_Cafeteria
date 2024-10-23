@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cafeteria ~~ Bem-vindos</title>
+    <link rel="stylesheet" href="indexcss.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho-logo"> <a href="index.html"> <img id="img-logo" src="../Imagenscafe/logo-novo.png"
+                    alt="logo"></a> <br> La Cafetería </div>
+        <nav>
+            <ul class="menu">
+                <li> <a href="#"> Inicio </a></li>
+                <li> <a href="../Produtos/produtos.html"> Produtos </a></li>
+                <li> <a href="#"> Carrinho </a></li>
+                <li> <a href="#"> Sobre </a></li>
+            </ul>
+        </nav>
+        <div class="cabecalho-carrinho"><img id="img-carrinho" src="../Imagenscafe/carrinho.png" alt="carrinho">
+
+        </div>
+    </header>
+  <p><h1>  Os mais pedidos </h1></p>
+
+    <div class="grid-container">
+    
+        <div class="grid-item">
+            <img src="../Imagenscafe/cafe-capuccino.jpeg" alt="Descrição da imagem 1">
+            <p>Capuccino</p>
+            <p> R$ 12,00</p>
+            <a href="../Sobre/sobre_capuccino.html"> Mais</a>
+        </div>
+        <div class="grid-item">
+            <img src="../Imagenscafe/cafe-fapre.jpeg" alt="Descrição da imagem 2">
+            <p>Frapê</p>
+            <p>R$ 18,00</p>
+        </div>
+        <div class="grid-item">
+            <img src="../Imagenscafe/cafe-cold.jpg" alt="Descrição da imagem 3">
+            <p> Cold Brew </p>
+            <p>R$ 15,00</p>
+        </div>
+        <div class="grid-item">
+            <img src="../Imagenscafe/cafe-latte.png" alt="Descrição da imagem 1">
+            <p>Latte</p>
+            <p>R$ 9,00</p>
+        </div>
+        <div class="grid-item">
+            <img src="../Imagenscafe/cafe-moccha.jpeg" alt="Descrição da imagem 1">
+            <p>Moccha</p>
+            <p>R$ 15,00</p>
+        </div>
+        <div class="grid-item">
+            <img src="../Imagenscafe/cafe-macchiato.jpg" alt="Descrição da imagem 1">
+            <p>Macchiato</p>
+            <p>R$ 7,00</p>
+        </div>
+        <div class="grid-item">
+            <img src="../Imagenscafe/cafe-espresso.jpg" alt="Descrição da imagem 1">
+            <p>Espresso</p>
+            <p>R$ 8,00</p>
+        </div>
+        <div class="grid-item">
+            <img src="../Imagenscafe/cafe-cold-citrus.jpg" alt="Descrição da imagem 1">
+            <p>Cold Citrus</p>
+            <p>R$ 16,00</p>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 La Cafeteria. Todos os direitos reservados.</p>
+                <p><a href="contato.html">Contato</a> | <a href="sobre.html">Sobre</a></p>
+                <p>Imagens retiradas da internet. Todos os direitos pertencem aos seus respectivos proprietários.</p>
+            </div>
+        </footer>
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                fetch("../header/header.html")
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById("header-placeholder").innerHTML = data;
+                    });
+            });
+        </script>
+        
+</body>
+
+</html>

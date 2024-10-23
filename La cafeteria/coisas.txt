@@ -1,0 +1,2 @@
+--- paleta de cores gradiente-café :
+ #695143 #705749 #765e4f #7d6455 #846a5b #8b7161 #917768
