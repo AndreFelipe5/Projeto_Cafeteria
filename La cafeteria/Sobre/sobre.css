@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    align-content: center;
+}
+
+body {
+    background-color: aliceblue;
+    overflow-x: hidden
+}
