@@ -1,5 +1,5 @@
 La Cafeteria
-Bem-vindo ao projeto "La Cafeteria"! Criador por @matheusgomessilv e @AndreFelipe5. 
+Bem-vindo ao projeto "La Cafeteria"! Criado por @AndreFelipe5 e @matheusgomessilv . 
 Este repositório contém o código-fonte do site da nossa cafeteria, onde você pode encontrar informações sobre nossos produtos, preços, e mais. 
 
 
