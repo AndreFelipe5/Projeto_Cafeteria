@@ -7,9 +7,16 @@
     list-style: none;
     text-align: center;
     align-content: center;
+    
 }
 
 body {
-    background-color: aliceblue;
+   
+    background-color: wheat;
     overflow-x: hidden
+}
+#img-b {
+    height: 350px;
+    width: 350px;
+    border-radius: 50px;
 }
