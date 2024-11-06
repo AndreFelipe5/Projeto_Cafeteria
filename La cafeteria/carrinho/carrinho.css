@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-fundo: wheat;
+    --cor-secundaria: #a1a1a1a1;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

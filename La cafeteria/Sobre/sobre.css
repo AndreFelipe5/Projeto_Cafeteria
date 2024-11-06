@@ -9,11 +9,15 @@
     align-content: center;
     
 }
+  /* como criar a variavel*/
+:root{
+    --cor-background: wheat;
+}
 
 body {
    
-    background-color: wheat;
-    overflow-x: hidden
+    background-color: var(--cor-background); /*como aplicar*/
+    overflow-x: hidden;
 }
 #img-b {
     height: 350px;
