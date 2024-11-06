@@ -18,8 +18,12 @@ Formulário de contato
 
 🛠️ Tecnologias Utilizadas
 
+Bootstrap
+
 HTML5
 
 CSS3
 
 JavaScript
+
+
