@@ -9,8 +9,11 @@
 }
 
 body {
-    background-color: aliceblue;
-    overflow-x: hidden
+    background-color: wheat;
+    overflow-x: hidden;
+    flex-direction: column;
+    align-items: center;
+   
 }
 
 header {
@@ -99,6 +102,30 @@ header {
     height: 250px;
     object-fit: cover;
 }
+.carousel-container {
+    width: 100%;
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+ 
+  }
+.carousel-inner {
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 400px;
+  
+  }
+.carousel-inner img {
+    justify-content: center;
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+  
+  }
+  
 
 /* Diferentes Telas */
 
