@@ -10,10 +10,14 @@
 
 body {
     background-color: wheat;
+<<<<<<< HEAD
     overflow-x: hidden;
     flex-direction: column;
     align-items: center;
    
+=======
+    overflow-x: hidden
+>>>>>>> 8808eb384a027d7378f3d617d4334e56f8ea24e2
 }
 
 header {
